@@ -32,6 +32,10 @@ Pipeline generates 5 BI-ready CSV files in `data/processed/`:
 4. **vehicle_type.csv** - Zone × vehicle type breakdown (18 combinations) with completion rates and revenue
 5. **surge_analysis.csv** - Zone × hour grid (144 combinations) correlating surge, wait-time, and cancellations
 
+## 📄 Analysis Report
+
+- [Ride-Sharing Data Analysis Report (PDF)](Ride-Sharing%20Data%20Analysis%20Report.pdf)
+
 ## 🚀 Quickstart (Windows)
 
 ```powershell
@@ -98,6 +102,8 @@ Competitive-Analytics-Dashboard/
 ├── data/
 │   ├── raw_rides.csv                # Generated locally (gitignored)
 │   └── processed/                   # 5 output CSVs (gitignored)
+│
+├── Ride-Sharing Data Analysis Report.pdf
 │
 ├── requirements.txt                 # pandas, numpy
 ├── .gitignore                       # Excludes data outputs
